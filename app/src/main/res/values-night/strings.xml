@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Team Labs</string>
+
+    <string name="teams_name">Teams Name</string>
+    <string name="description">Description</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+
+    <string-array name="data_name">
+        <item>Los Angeles Lakers</item>
+        <item>Milwaukee Bucks</item>
+        <item>Chicago Bulls</item>
+        <item>Boston Celtics</item>
+        <item>Miami Heats</item>
+        <item>Dallas Mavericks</item>
+        <item>Brooklyn Nets</item>
+        <item>Toronto Raptors</item>
+        <item>Philadelphia 76ers</item>
+        <item>San Antonio Spurs</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>
+            The Los Angeles Lakers are a professional basketball team based in Los Angeles.
+            They are one of the most successful teams in the history of the NBA.
+        </item>
+        <item>
+            The Milwaukee Bucks are a professional basketball team based in Milwaukee, Wisconsin.
+            They are a member of the Central Division of the Eastern Conference in the
+            National Basketball Association (NBA).
+        </item>
+        <item>The Chicago Bulls are a professional basketball team based in Chicago, Illinois.
+            They are a member of the Central Division of the Eastern Conference in the
+            National Basketball Association (NBA).
+        </item>
+        <item>
+            The Boston Celtics are a professional basketball team based in Boston, Massachusetts.
+            They are one of the most successful franchises in NBA history.
+        </item>
+        <item>
+            The Miami Heat are a professional basketball team based in Miami, Florida.
+            They compete in the Southeast Division of the Eastern Conference in the
+            National Basketball Association (NBA).
+        </item>
+        <item>
+            The Dallas Mavericks are a professional basketball team based in Dallas, Texas.
+            They are a member of the Southwest Division of the Western Conference in the
+            National Basketball Association (NBA).
+        </item>
+        <item>
+            The Brooklyn Nets are a professional basketball team based in Brooklyn, New York City.
+            They are a member of the Atlantic Division of the Eastern Conference in the
+            National Basketball Association (NBA).
+        </item>
+        <item>
+            The Toronto Raptors are a professional basketball team based in Toronto, Ontario, Canada.
+            They are a member of the Atlantic Division of the Eastern Conference in the
+            National Basketball Association (NBA).
+        </item>
+        <item>
+            The Philadelphia 76ers are a professional basketball team based in Philadelphia.
+            They compete in the Atlantic Division of the Eastern Conference in the
+            National Basketball Association (NBA).
+        </item>
+        <item>
+            The San Antonio Spurs are a professional basketball team based in San Antonio, Texas.
+            They are one of the most successful franchises in NBA history.
+        </item>
+    </string-array>
+
+
+    <integer-array name="data_photo">
+        <item>@drawable/ic_lakers</item>
+        <item>@drawable/ic_bucks</item>
+        <item>@drawable/ic_bulls</item>
+        <item>@drawable/ic_celtics</item>
+        <item>@drawable/ic_heat</item>
+        <item>@drawable/ic_mavs</item>
+        <item>@drawable/ic_nets</item>
+        <item>@drawable/ic_raptors</item>
+        <item>@drawable/ic_sixers</item>
+        <item>@drawable/ic_spurs</item>
+    </integer-array>
+</resources>
