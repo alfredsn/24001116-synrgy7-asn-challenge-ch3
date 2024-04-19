@@ -7,8 +7,8 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class ListTeamAdapter(private val listTeam: ArrayList<TeamData>) : RecyclerView.Adapter<ListTeamAdapter
-    .ListViewHolder>() {
+class ListPlayerAdapter(private val listPlayer: ArrayList<PlayerData>) : RecyclerView.Adapter<ListPlayerAdapter
+.ListViewHolder>() {
 
     private lateinit var onItemClickCallback: OnItemClickCallback
 
@@ -28,26 +28,25 @@ class ListTeamAdapter(private val listTeam: ArrayList<TeamData>) : RecyclerView.
         return ListViewHolder(view)
     }
 
-    override fun getItemCount(): Int = listTeam.size
+    override fun getItemCount(): Int = listPlayer.size
 
     override fun onBindViewHolder(holder: ListViewHolder, position: Int) {
         val (
             name,
             description,
             photo
-        ) = listTeam[position]
+        ) = listPlayer[position]
 
         holder.imgPhoto.setImageResource(photo)
         holder.tvName.text = name
         holder.tvDescription.text = description
 
         holder.itemView.setOnClickListener {
-            onItemClickCallback.onItemClicked(listTeam[holder.adapterPosition])
+            onItemClickCallback.onItemClicked(listPlayer[holder.adapterPosition])
         }
     }
 
     interface OnItemClickCallback {
-        fun onItemClicked(data: TeamData)
+        fun onItemClicked(data: PlayerData)
     }
-
 }

@@ -4,7 +4,7 @@ import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
-data class Team(
+data class TeamData(
     val name: String,
     val description: String,
     val photo: Int

@@ -6,7 +6,7 @@
     <string name="list">List</string>
     <string name="grid">Grid</string>
 
-    <string-array name="data_name">
+    <string-array name="data_teams_name">
         <item>Los Angeles Lakers</item>
         <item>Milwaukee Bucks</item>
         <item>Chicago Bulls</item>
@@ -19,57 +19,57 @@
         <item>San Antonio Spurs</item>
     </string-array>
 
-    <string-array name="data_description">
+    <string-array name="data_teams_description">
         <item>
-            The Los Angeles Lakers are a professional basketball team based in Los Angeles.
+            The Los Angeles Lakers are a professional basketball teamData based in Los Angeles.
             They are one of the most successful teams in the history of the NBA.
         </item>
         <item>
-            The Milwaukee Bucks are a professional basketball team based in Milwaukee, Wisconsin.
+            The Milwaukee Bucks are a professional basketball teamData based in Milwaukee, Wisconsin.
             They are a member of the Central Division of the Eastern Conference in the
             National Basketball Association (NBA).
         </item>
-        <item>The Chicago Bulls are a professional basketball team based in Chicago, Illinois.
+        <item>The Chicago Bulls are a professional basketball teamData based in Chicago, Illinois.
             They are a member of the Central Division of the Eastern Conference in the
             National Basketball Association (NBA).
         </item>
         <item>
-            The Boston Celtics are a professional basketball team based in Boston, Massachusetts.
+            The Boston Celtics are a professional basketball teamData based in Boston, Massachusetts.
             They are one of the most successful franchises in NBA history.
         </item>
         <item>
-            The Miami Heat are a professional basketball team based in Miami, Florida.
+            The Miami Heat are a professional basketball teamData based in Miami, Florida.
             They compete in the Southeast Division of the Eastern Conference in the
             National Basketball Association (NBA).
         </item>
         <item>
-            The Dallas Mavericks are a professional basketball team based in Dallas, Texas.
+            The Dallas Mavericks are a professional basketball teamData based in Dallas, Texas.
             They are a member of the Southwest Division of the Western Conference in the
             National Basketball Association (NBA).
         </item>
         <item>
-            The Brooklyn Nets are a professional basketball team based in Brooklyn, New York City.
+            The Brooklyn Nets are a professional basketball teamData based in Brooklyn, New York City.
             They are a member of the Atlantic Division of the Eastern Conference in the
             National Basketball Association (NBA).
         </item>
         <item>
-            The Toronto Raptors are a professional basketball team based in Toronto, Ontario, Canada.
+            The Toronto Raptors are a professional basketball teamData based in Toronto, Ontario, Canada.
             They are a member of the Atlantic Division of the Eastern Conference in the
             National Basketball Association (NBA).
         </item>
         <item>
-            The Philadelphia 76ers are a professional basketball team based in Philadelphia.
+            The Philadelphia 76ers are a professional basketball teamData based in Philadelphia.
             They compete in the Atlantic Division of the Eastern Conference in the
             National Basketball Association (NBA).
         </item>
         <item>
-            The San Antonio Spurs are a professional basketball team based in San Antonio, Texas.
+            The San Antonio Spurs are a professional basketball teamData based in San Antonio, Texas.
             They are one of the most successful franchises in NBA history.
         </item>
     </string-array>
 
 
-    <integer-array name="data_photo">
+    <integer-array name="data_teams_photo">
         <item>@drawable/ic_lakers</item>
         <item>@drawable/ic_bucks</item>
         <item>@drawable/ic_bulls</item>
@@ -81,6 +81,134 @@
         <item>@drawable/ic_sixers</item>
         <item>@drawable/ic_spurs</item>
     </integer-array>
-<!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="players_name">Nama Pemain</string>
+
+    <string-array name="data_players_name">
+        <item>LeBron James</item>
+        <item>Kareem Abdul-Jabbar</item>
+        <item>Karl Malone</item>
+        <item>Michael Jordan</item>
+        <item>Dirk Nowitzki</item>
+        <item>Kobe Bryant</item>
+        <item>Wilt Chamberlain</item>
+        <item>Moses Malone</item>
+        <item>Shaquille O\'Neal</item>
+        <item>Kevin Durant</item>
+    </string-array>
+
+    <string-array name="data_players_height">
+        <item>203</item>
+        <item>218</item>
+        <item>211</item>
+        <item>198</item>
+        <item>201</item>
+        <item>203</item>
+        <item>213</item>
+        <item>206</item>
+        <item>196</item>
+        <item>206</item>
+    </string-array>
+
+    <string-array name="data_players_position">
+        <item>Small Forward</item>
+        <item>Center</item>
+        <item>Power Forward</item>
+        <item>Shooting Guard</item>
+        <item>Power Forward</item>
+        <item>Shooting Guard</item>
+        <item>Center</item>
+        <item>Center</item>
+        <item>Center</item>
+        <item>Small Forward</item>
+    </string-array>
+
+    <string-array name="data_players_description">
+        <item>
+                <ul>
+                    <li>LeBron James adalah pemain bola basket profesional Amerika Serikat yang bermain untuk Los Angeles Lakers di National Basketball Association (NBA). Dia dianggap sebagai salah satu pemain terhebat sepanjang masa.</li>
+                    <li>James telah memenangkan empat gelar NBA, empat penghargaan MVP NBA, empat penghargaan Finals MVP, dan dua penghargaan MVP NBA Finals. Dia juga telah dinobatkan menjadi All-Star NBA 18 kali, All-NBA First Team 18 kali, dan All-Defensive First Team lima kali.</li>
+                    <li>James adalah pencetak gol terbanyak sepanjang masa NBA, dengan total 39.124 poin. Dia juga merupakan pemimpin NBA dalam assist (9.958) dan steal (2.799).</li>
+                </ul>
+        </item>
+        <item>
+                <ul>
+                    <li>Kareem Abdul-Jabbar adalah mantan pemain bola basket profesional Amerika Serikat yang bermain selama 20 musim di National Basketball Association (NBA). Dia dikenal sebagai salah satu pemain tertinggi dan terkuat dalam sejarah NBA.</li>
+                    <li>Abdul-Jabbar memenangkan enam gelar NBA, enam penghargaan MVP NBA, dan enam penghargaan Finals MVP. Dia juga telah dinobatkan menjadi All-Star NBA 19 kali, All-NBA First Team 19 kali, dan All-Defensive First Team lima kali.</li>
+                    <li>Abdul-Jabbar memegang rekor NBA untuk poin terbanyak sepanjang masa, dengan total 38.387 poin. Dia juga merupakan pemimpin NBA dalam blok (3.189).</li>
+                </ul>
+        </item>
+        <item>
+                <ul>
+                    <li>Karl Malone adalah mantan pemain bola basket profesional Amerika Serikat yang bermain selama 19 musim di National Basketball Association (NBA). Dia dikenal sebagai salah satu power forward terbaik sepanjang masa.</li>
+                    <li>Malone memenangkan dua gelar NBA dan dua penghargaan MVP NBA. Dia juga terpilih sebagai All-Star NBA 14 kali dan All-NBA Team 14 kali.</li>
+                    <li>Malone adalah pencetak gol terbanyak kedua dalam sejarah NBA dengan total 36.928 poin. Dia juga merupakan pemain yang kuat dalam merebut rebound dan memiliki rata-rata double-double sepanjang kariernya.</li>
+                </ul>
+        </item>
+
+        <item>
+                <ul>
+                    <li>Michael Jordan adalah mantan pemain bola basket profesional Amerika Serikat yang bermain selama 15 musim di National Basketball Association (NBA). Dia dianggap sebagai salah satu pemain terhebat sepanjang masa.</li>
+                    <li>Jordan memenangkan enam gelar NBA, lima penghargaan MVP NBA, dan enam penghargaan Finals MVP. Dia juga telah dinobatkan menjadi All-Star NBA 14 kali, All-NBA First Team 10 kali, dan All-Defensive First Team sembilan kali.</li>
+                    <li>Jordan adalah pemimpin NBA dalam poin per game (30,12), steal per game (2,31), dan blok per game (0,82). Dia juga memenangkan lima penghargaan scoring title dan sembilan penghargaan All-Defensive First Team.</li>
+                </ul>
+        </item>
+        <item>
+            <ul>
+                <li>Dirk Nowitzki adalah mantan pemain bola basket profesional Jerman yang bermain selama 21 musim untuk Dallas Mavericks di National Basketball Association (NBA). Dia dianggap sebagai salah satu power forward terbaik sepanjang masa.</li>
+                <li>Nowitzki memenangkan satu gelar NBA pada tahun 2011 dan dinobatkan sebagai NBA Finals MVP. Selama karirnya, dia terpilih sebagai All-Star NBA 14 kali dan All-NBA Team 12 kali.</li>
+                <li>Nowitzki adalah pencetak gol terbanyak kedua dalam sejarah Mavericks dan merupakan pemain asing pertama yang mencetak lebih dari 30.000 poin dalam sejarah NBA.</li>
+            </ul>
+        </item>
+        <item>
+            <ul>
+                <li>Kobe Bryant adalah mantan pemain bola basket profesional Amerika Serikat yang bermain selama 20 musim untuk Los Angeles Lakers di National Basketball Association (NBA). Dia dianggap sebagai salah satu pemain terhebat sepanjang masa.</li>
+                <li>Bryant memenangkan lima gelar NBA, dua penghargaan MVP NBA, dan dua penghargaan Finals MVP. Dia juga terpilih sebagai All-Star NBA 18 kali, All-NBA Team 15 kali, dan All-Defensive Team 12 kali.</li>
+                <li>Bryant pensiun sebagai pencetak gol terbanyak ketiga dalam sejarah NBA dengan total 33.643 poin.</li>
+            </ul>
+        </item>
+        <item>
+            <ul>
+                <li>Wilt Chamberlain adalah salah satu pemain bola basket paling dominan dalam sejarah NBA. Dia bermain selama 14 musim untuk beberapa tim, termasuk Philadelphia/San Francisco Warriors, Philadelphia 76ers, dan Los Angeles Lakers.</li>
+                <li>Chamberlain memenangkan dua gelar NBA dan empat penghargaan MVP NBA. Dia memiliki banyak rekor NBA yang masih bertahan, termasuk mencetak 100 poin dalam satu pertandingan pada tahun 1962.</li>
+                <li>Chamberlain terpilih sebagai All-Star NBA 13 kali dan All-NBA Team sepuluh kali.</li>
+            </ul>
+        </item>
+        <item>
+            <ul>
+                <li>Moses Malone adalah mantan pemain bola basket profesional Amerika Serikat yang bermain selama 21 musim di NBA. Dia dikenal sebagai salah satu pemain rebon terbaik sepanjang masa.</li>
+                <li>Malone memenangkan tiga gelar NBA, tiga penghargaan MVP NBA, dan satu penghargaan Finals MVP. Dia terpilih sebagai All-Star NBA 12 kali dan All-NBA Team delapan kali.</li>
+                <li>Malone adalah pemain pertama yang melompat dari sekolah menengah ke NBA dan langsung sukses.</li>
+            </ul>
+        </item>
+        <item>
+            <ul>
+                <li>Shaquille O\'Neal, juga dikenal sebagai Shaq, adalah mantan pemain bola basket Amerika Serikat yang bermain selama 19 musim di NBA. Dia dianggap sebagai salah satu center terhebat dalam sejarah NBA.</li>
+                <li>O\'Neal memenangkan empat gelar NBA, tiga penghargaan Finals MVP, dan tiga penghargaan NBA All-Star Game MVP. Dia terpilih sebagai All-Star NBA 15 kali dan All-NBA Team 14 kali.</li>
+                <li>O\'Neal dikenal karena kehadiran fisiknya yang kuat dan kemampuannya mencetak gol di bawah ring.</li>
+            </ul>
+        </item>
+        <item>
+            <ul>
+                <li>Kevin Durant, juga dikenal sebagai KD, adalah pemain bola basket profesional Amerika Serikat yang bermain untuk Brooklyn Nets di NBA. Dia dianggap sebagai salah satu forward terbaik dalam permainan.</li>
+                <li>Durant memenangkan dua gelar NBA, dua penghargaan Finals MVP, dan satu penghargaan NBA MVP. Dia terpilih sebagai All-Star NBA sebanyak 12 kali dan All-NBA Team sepuluh kali.</li>
+                <li>Durant dikenal karena ketangguhannya dalam mencetak gol dan kemampuannya sebagai penjaga dan forward yang serbaguna.</li>
+            </ul>
+        </item>
+    </string-array>
+
+    <integer-array name="data_players_photo">
+        <item>@drawable/lbj</item>
+        <item>@drawable/kareem</item>
+        <item>@drawable/karl</item>
+        <item>@drawable/mj</item>
+        <item>@drawable/dirk</item>
+        <item>@drawable/kobe</item>
+        <item>@drawable/wilt</item>
+        <item>@drawable/moses</item>
+        <item>@drawable/shaq</item>
+        <item>@drawable/kd</item>
+    </integer-array>
 </resources>
